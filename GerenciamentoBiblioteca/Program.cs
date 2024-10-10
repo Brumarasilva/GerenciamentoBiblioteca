@@ -24,7 +24,7 @@ public class Program
         livro2.Quantidade = 5;
         biblioteca.Add(livro2);
 
-    
+
         Console.WriteLine("Escolha uma Opção: ");
         Console.WriteLine("1-Usuário");
         Console.WriteLine("2-Administrador ");
@@ -58,15 +58,37 @@ public class Program
                             Console.WriteLine($"Genero: {livro.Genero}");
                             Console.WriteLine($"Quantidade: {livro.Quantidade}\n");
                         }
-                        break;
+                        goto return1;
 
                     case "3":
-                        Console.WriteLine("");
+                        Console.WriteLine("Operação Finalizada ");
 
                         break;
                 }
 
                 break;
+            case "2":
+                
+                Console.WriteLine("Escolha uma opção: ");
+                Console.WriteLine("1-Cadastro de novos livros ");
+                Console.WriteLine("2-Consultar o catálogo da biblioteca ");
+                Console.WriteLine("3-Sair ");
+                string opcaoAdministrador = Console.ReadLine();
+                switch (opcaoAdministrador)
+                {
+                    case "1":
+                    Console.WriteLine("Insira o nome do livro: ");
+                    string novoLivro = Console.ReadLine();
+                    Console.WriteLine("Insira o nome do autor: ");
+                    string novoAutor = Console.ReadLine();
+                    Console.WriteLine("Insira o Gênero do livro: ");
+                    string novoGenero = Console.ReadLine();
+                    Console.WriteLine("Insira a quantidade de livros existentes: ");
+                    int novaQuantidade = int.Parse(Console.ReadLine());
+                    break;
+
+                }
+
         }
 
     }

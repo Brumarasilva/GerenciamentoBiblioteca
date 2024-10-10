@@ -1,0 +1,15 @@
+c:\Users\Alunos\Documents\bruna\GerenciamentoBiblioteca\GerenciamentoBiblioteca\bin\Debug\net8.0\SistemadeGerenciamentodeBiblioteca.exe
+C:\Users\Alunos\Documents\bruna\GerenciamentoBiblioteca\GerenciamentoBiblioteca\bin\Debug\net8.0\SistemadeGerenciamentodeBiblioteca.deps.json
+C:\Users\Alunos\Documents\bruna\GerenciamentoBiblioteca\GerenciamentoBiblioteca\bin\Debug\net8.0\SistemadeGerenciamentodeBiblioteca.runtimeconfig.json
+c:\Users\Alunos\Documents\bruna\GerenciamentoBiblioteca\GerenciamentoBiblioteca\bin\Debug\net8.0\SistemadeGerenciamentodeBiblioteca.dll
+c:\Users\Alunos\Documents\bruna\GerenciamentoBiblioteca\GerenciamentoBiblioteca\bin\Debug\net8.0\SistemadeGerenciamentodeBiblioteca.pdb
+c:\Users\Alunos\Documents\bruna\GerenciamentoBiblioteca\GerenciamentoBiblioteca\obj\Debug\net8.0\SistemadeGerenciamentodeBiblioteca.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Alunos\Documents\bruna\GerenciamentoBiblioteca\GerenciamentoBiblioteca\obj\Debug\net8.0\SistemadeGerenciamentodeBiblioteca.AssemblyInfoInputs.cache
+c:\Users\Alunos\Documents\bruna\GerenciamentoBiblioteca\GerenciamentoBiblioteca\obj\Debug\net8.0\SistemadeGerenciamentodeBiblioteca.AssemblyInfo.cs
+c:\Users\Alunos\Documents\bruna\GerenciamentoBiblioteca\GerenciamentoBiblioteca\obj\Debug\net8.0\SistemadeGerenciamentodeBiblioteca.csproj.CoreCompileInputs.cache
+c:\Users\Alunos\Documents\bruna\GerenciamentoBiblioteca\GerenciamentoBiblioteca\obj\Debug\net8.0\SistemadeGerenciamentodeBiblioteca.sourcelink.json
+c:\Users\Alunos\Documents\bruna\GerenciamentoBiblioteca\GerenciamentoBiblioteca\obj\Debug\net8.0\SistemadeGerenciamentodeBiblioteca.dll
+c:\Users\Alunos\Documents\bruna\GerenciamentoBiblioteca\GerenciamentoBiblioteca\obj\Debug\net8.0\refint\SistemadeGerenciamentodeBiblioteca.dll
+c:\Users\Alunos\Documents\bruna\GerenciamentoBiblioteca\GerenciamentoBiblioteca\obj\Debug\net8.0\SistemadeGerenciamentodeBiblioteca.pdb
+C:\Users\Alunos\Documents\bruna\GerenciamentoBiblioteca\GerenciamentoBiblioteca\obj\Debug\net8.0\SistemadeGerenciamentodeBiblioteca.genruntimeconfig.cache
+C:\Users\Alunos\Documents\bruna\GerenciamentoBiblioteca\GerenciamentoBiblioteca\obj\Debug\net8.0\ref\SistemadeGerenciamentodeBiblioteca.dll

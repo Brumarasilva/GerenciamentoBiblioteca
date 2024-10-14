@@ -11,17 +11,16 @@ public class Program
         List<Livro> biblioteca = new List<Livro>();
 
         Livro livro1 = new Livro();
-        livro1.Titulo = "Harry potter, A pedra filosofal";
+        livro1.Titulo = "(1) Harry potter, A pedra filosofal";
         livro1.Autor = "J.K Rowling";
         livro1.Genero = "Fantasia";
         livro1.Quantidade = 4 ;
 
 
-        biblioteca.Add(livro1); 
-
+        biblioteca.Add(livro1);
         Livro livro2 = new Livro();
         
-        livro2.Titulo = "Jogos Vorazes";
+        livro2.Titulo = "(2) Jogos Vorazes";
         livro2.Autor = "suzanne collins";
         livro2.Genero = "Ficção de aventura";
         livro2.Quantidade = 5;
@@ -72,6 +71,7 @@ public class Program
                             Console.WriteLine($"Genero: {livro.Genero}");
                             Console.WriteLine($"Quantidade: {livro.Quantidade}\n");
                         }
+
                         quantlivro++;
                         Console.WriteLine(quantlivro);
                         

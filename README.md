@@ -1,6 +1,6 @@
 # $${\color{red}Gerenciamento\space Biblioteca}$$
 
-## O que foi utilizado:
+## $${\color{pink}O\space que\space foi\space utilizado:}$$
 * PowerShell
 * Git Bash
 * Linguagem C#

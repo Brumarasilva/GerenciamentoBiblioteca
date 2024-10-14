@@ -1,8 +1,12 @@
 ﻿
+using System.Security.Cryptography.X509Certificates;
+
 public class Program
 {
     public static void Main()
     {
+        Console.Clear();
+        int quantlivro = 0; 
 
         List<Livro> biblioteca = new List<Livro>();
 
@@ -11,6 +15,8 @@ public class Program
         livro1.Autor = "J.K Rowling";
         livro1.Genero = "Fantasia";
         livro1.Quantidade = 4 ;
+
+
         biblioteca.Add(livro1); 
 
         Livro livro2 = new Livro();
@@ -19,12 +25,16 @@ public class Program
         livro2.Autor = "suzanne collins";
         livro2.Genero = "Ficção de aventura";
         livro2.Quantidade = 5;
+
         biblioteca.Add(livro2);
 
 
         Console.WriteLine("Escolha uma Opção: ");
         Console.WriteLine("1-Usuário");
         Console.WriteLine("2-Administrador ");
+
+   
+
 
         string opcao = Console.ReadLine();
 
@@ -33,20 +43,52 @@ public class Program
             case "1":
             return1:
                 Console.WriteLine("Escolha uma opção:");
-                Console.WriteLine("1-Devolver livros");
-                Console.WriteLine("2-Consultar o catálogo da biblioteca ");
-                Console.WriteLine("3-Sair ");
+                if(quantlivro < 3)
+                {
+                    Console.WriteLine("1-Pegar livros");
+                }
+                
+                Console.WriteLine("2-Devolver Livros");
+                Console.WriteLine("3-Consultar o catálogo da biblioteca ");
+                Console.WriteLine("4-Sair ");
                 string opcaousuario = Console.ReadLine();
 
                 switch (opcaousuario)
                 {
                     case "1":
+                    if(quantlivro >= 3)
+                    {
+                        Console.WriteLine("Você ja pegou 3 livros!");
+                        goto return1;
+                    }
+                    else 
+                    {
+                        Console.WriteLine("Qual livro deseja pegar? ");
+                     Console.WriteLine("Catálogo: ");
+                        foreach (Livro livro in biblioteca)
+                        {
+                            Console.WriteLine($"Titulo: {livro.Titulo}");
+                            Console.WriteLine($"Autor: {livro.Autor}");
+                            Console.WriteLine($"Genero: {livro.Genero}");
+                            Console.WriteLine($"Quantidade: {livro.Quantidade}\n");
+                        }
+                        quantlivro++;
+                        Console.WriteLine(quantlivro);
+                        
+
+
+                    goto return1;
+
+                    }
+                    
+
+                    case "2":
                         Console.WriteLine("Qual livro deseja devolver? ");
                         string livroADevolver = Console.ReadLine();
 
                         goto return1;
 
-                    case "2":
+                    case "3":
                         Console.WriteLine("Catálogo: ");
                         foreach (Livro livro in biblioteca)
                         {
@@ -57,7 +99,7 @@ public class Program
                         }
                         goto return1;
 
-                    case "3":
+                    case "4":
                         Console.WriteLine("Operação Finalizada ");
 
                         break;
@@ -91,6 +133,7 @@ public class Program
                         Console.WriteLine($"Autor: {livro.Autor}");
                         Console.WriteLine($"Genero: {livro.Genero}");
                         Console.WriteLine($"Quantidade: {livro.Quantidade}");
+                        Console.WriteLine();
                     }
                     goto return2;
                     case "3":

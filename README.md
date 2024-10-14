@@ -15,10 +15,10 @@
 * Foi dado a opção para o administrador a realização do cadastro de novos livros, direito de consulta ao catálogo da biblioteca e de finalizar a operação (Sair).
 * Foi adicionada a fução public class.
 
-## Backlog:
+## $${\color{pink}Backlog:}$$
 * baixa no estoque de livros toda vez que algum cliente escolhesse um livro. 
 * Quando o administrador escolher a opção "cadastrar livro" ser adicionado no menu principal.
 
-## Conclusão:
+## $${\color{pink}Conclusão:}$$
 É um sistema de gerenciamento de biblioteca com opção de usuário e administrador.
 

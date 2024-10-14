@@ -3,21 +3,18 @@ public class Program
 {
     public static void Main()
     {
-        // catálogo do administrador
-        // Console.WriteLine("Administrador ");
-        // Console.WriteLine("1-Cadastro de novos livros ");
-        // Console.WriteLine("2-Consultar o catálogo da biblioteca ");
-        // Console.WriteLine("3-Sair ");
+
         List<Livro> biblioteca = new List<Livro>();
 
         Livro livro1 = new Livro();
         livro1.Titulo = "Harry potter, A pedra filosofal";
         livro1.Autor = "J.K Rowling";
         livro1.Genero = "Fantasia";
-        livro1.Quantidade = 4;
-        biblioteca.Add(livro1);
+        livro1.Quantidade = 4 ;
+        biblioteca.Add(livro1); 
 
         Livro livro2 = new Livro();
+        
         livro2.Titulo = "Jogos Vorazes";
         livro2.Autor = "suzanne collins";
         livro2.Genero = "Ficção de aventura";
@@ -68,7 +65,7 @@ public class Program
 
                 break;
             case "2":
-                
+                return2:
                 Console.WriteLine("Escolha uma opção: ");
                 Console.WriteLine("1-Cadastro de novos livros ");
                 Console.WriteLine("2-Consultar o catálogo da biblioteca ");
@@ -85,9 +82,24 @@ public class Program
                     string novoGenero = Console.ReadLine();
                     Console.WriteLine("Insira a quantidade de livros existentes: ");
                     int novaQuantidade = int.Parse(Console.ReadLine());
+                    goto return2;
+                    case "2":
+                    Console.WriteLine("catálogo");
+                    foreach(Livro livro in biblioteca)
+                    {
+                        Console.WriteLine($"Título: {livro.Titulo}");
+                        Console.WriteLine($"Autor: {livro.Autor}");
+                        Console.WriteLine($"Genero: {livro.Genero}");
+                        Console.WriteLine($"Quantidade: {livro.Quantidade}");
+                    }
+                    goto return2;
+                    case "3":
+                    Console.WriteLine("Operação Finalizada");
+
                     break;
 
                 }
+                break;
 
         }
 
